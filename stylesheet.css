@@ -1,0 +1,54 @@
+/* font-family: "Lato", sans-serif; (Body) */ 
+/* font-family: "Bebas Neue", sans-serif; (Headings) */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./assets/wood_texture_bg_v1.jpg);
+    background-size: cover;
+}
+
+.texture-v1 {
+    width: 100%;
+    height: 100vW;
+    position: absolute;
+    background-color: #1F1F1F;
+    opacity: 0.5;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-and-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 31, 31, 0.8);
+    backdrop-filter: blur(8px);
+    padding: 1rem 0;
+}
+
+.navbar {
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
